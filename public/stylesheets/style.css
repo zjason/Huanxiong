@@ -1,8 +1,31 @@
 body {
+  margin:0;
+  padding:0;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #C4E2DC;
+  #background: url("../images/back.jpg");
 }
 
 a {
   color: #00B7FF;
 }
+
+
+.menuBar{
+  color: blue;
+  text-align:center;
+}
+
+.header-wrap{
+  height: 90px;
+  background-color: khaki;
+}
+
+.button{
+  background: ivory;
+  width: 24%;
+  margin: 0.5%;
+  float:left;
+}
+

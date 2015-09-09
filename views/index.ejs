@@ -1,11 +1,37 @@
 <!DOCTYPE html>
+
 <html>
   <head>
-    <title><%= title %></title>
+    <title>Hello Bing</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+    <img src="images/grey.jpg" height="150"/>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+
+    <hr />
+
+    <div class="header-wrap">
+        <div class="menuBar">
+            <div class="button">
+                首页
+            </div>
+            <div class="button">
+                服务
+            </div>
+            <div class="button">
+                Bug
+            </div>
+            <div class="button">
+                关于我们
+            </div>
+        </div>
+    </div>
+
+
+    <br> </br>
+    <p>Welcome to <strong><a href = "http://localhost:3000/error"> <%= title %></a></strong></p>
+
+
   </body>
 </html>
